@@ -50,12 +50,16 @@
 .logo {
     max-width: 33%;
     max-height: 33%;
-    margin: 36px;
+    margin-bottom: 96px;
+    margin-top:48px
 }
 .button-container {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 input[type="text"] {
     border-radius: 4px;
@@ -63,7 +67,7 @@ input[type="text"] {
     font-size: 16px;
     border: 1px solid #000;
     outline-color: #0062ff;
-    width: 300px;
+    width: 700px;
 }
 input[type="submit"] {
     border-radius: 4px;
@@ -71,7 +75,7 @@ input[type="submit"] {
     justify-content: center;
     align-items: center;
     width: 180px;
-    height: 40px;
+    height: 60px;
     background-color: #0062ff;
     color: #ffffff;
     font-size: 16px;
@@ -79,4 +83,7 @@ input[type="submit"] {
     border: none;
     float: right;
     border-radius: 4px;
+}
+body {
+    font-family: Arial, sans-serif;
 }
